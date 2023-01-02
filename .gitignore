@@ -1,1 +1,4 @@
 /target
+.env
+tempmon.toml
+tasks.json
