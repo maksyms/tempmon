@@ -1,0 +1,20 @@
+[package]
+name = "tempmon"
+version = "0.1.0"
+authors = ["Maksym Schipka <maksym@hotmail.com>"]
+description = "Temperature monitoring on Raspberry Pi using DS18B20 sensor"
+license = "MIT/X11 OR Apache-2.0"
+repository = "https://github.com/maksyms/tempmon"
+readme = "README.md"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+confy = "0.5.1"
+derive_more = "0.99.17"
+env_logger = "0.10.0"
+log = "0.4.17"
+serde = "1.0.152"
+serde_derive = "1.0.152"
+ureq = "2.5.0"

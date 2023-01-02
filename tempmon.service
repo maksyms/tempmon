@@ -1,0 +1,12 @@
+[Unit]
+Description=tempmon for DS18B20
+
+[Service]
+Type=simple
+User=dietpi
+WorkingDirectory=/tmp
+ExecStart=/home/dietpi/bin/tempmon
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
